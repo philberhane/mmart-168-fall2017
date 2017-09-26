@@ -22,7 +22,8 @@ const setLanguage = (code) => {
 }
 
 
-const getData = () => {
+const getData = () => { /*getData will return all of the data from tweets that
+  contain the given searched term*/
     const term = document.getElementById('term').value
     const baseURL = 'https://mmart168-twitter-proxy.herokuapp.com/1.1/search/tweets.json?q=' + term
     twitterURL = baseURL + '&lang=' + languageCode
@@ -39,7 +40,35 @@ const getData = () => {
 }
 
 
+/*
+ANSWERS TO HOMEWORK PART 2 QUESTIONS:
 
+Q: Using comments, edit the part2.js file and describe in your own words what
+you think the getData function does.
+
+A: getData will return all of the data from tweets that contain the given 
+searched term
+
+Q: Open your JavaScript Console (right-click > inspect) and type jsonData into
+the console. You should see a JavaScript object that represents the Tweets
+returned by your search. To reference the status array, you can type
+jsonData.statuses. How would you reference the first status in the
+jsonData.statuses list?
+
+A: jsonData.statuses[0]
+
+
+Q; How would you reference the text property for the fifth status in the
+jsonData.statuses list?
+
+A: jsonData.statuses[4].text
+
+
+Q: Extra credit: How would you reference the name property, which is inside of
+the user property for the second status in the jsonData.statuses list?
+
+A: jsonData.statuses[1].user.name
+*/
 
 
 
