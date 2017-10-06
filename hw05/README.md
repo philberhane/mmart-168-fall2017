@@ -16,8 +16,18 @@ This homework will require some googling. As a software engineer, a lot of what 
 6. Verify that you are now on the new branch: `$ git branch` (check that your new branch has an asterik next to it).
 
 ## PART II: Reading response
-Edit README.MD and write your reading response here!
-
+  Today's Developer Tea podcast episode that I listened to today is called 
+"Folklore in Your Code". It's a short 10 minute episode that talks about
+keeping your code and clean and straightforward as possible, and that if you
+have to "tell a folklore" just to explain certain parts of your code, then you
+might as well edit it and make it more eligible.
+  This compliments how Ricky is teaching us to make our code clean (no semi-colons
+as well as double quotations). This is important even if no one else is reading
+our code, because as the podcast stated, the coder in the future might as well
+be someone else. Meaning, in the future, you probably will forget what you initially
+meant if your code is sloppy and it'll be hard for you to read.
+  The only Con I could think of is it might stifle time if you're rushing to
+complete a project. The Pros have been stated above.
 ## Part III: JavaScript Homework
 
 ### Step 1: Reverse a tweet

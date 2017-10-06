@@ -47,18 +47,29 @@ const getData = () => {
             clearData()
 
             // ---------------------- TASK 1 -----------------------------------
-            // 1. Write a function called 'reverseText' that takes a single string as an input. It should return that string with all characters reversed
-            // e.g., 'Hello, world' will return 'dlrow ,olleH'
-            // You can test this in the browser by updating the forEach function to reverse every tweet's text
-            // HINT: This is a common interview question to screen out javascript devs who don't understand the language's native functions. Google around - you might find a good solution for this problem
-            // Once you've written your reverse text function, write a comment describing how it works.
+            const reverseText = (str) => {
+              return str.split('').reverse().join('')
+            }
+
+            /* This reverseText function takes a string, splits it up into an
+            array of strings, reverses the array, and combines the array of
+            strings into one string.
+            */
 
             // ---------------------- TASK 2 -----------------------------------
-            // 2. Now, write a function called 'reverseTweet' that takes a single string as an input. If the string contains a hashtag (#), it should return the string.
-            // If it doesn't contain a hashtag, it should return the string with all characters reversed
-            // Update the forEach function so that it reverses tweets that don't have hashtags
-            // HINT: Strings have a useful function called indexOf that you may find useful: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf
-            // HINT: You already have a reverseText function laying around...
+            const reverseTweet = (tweetText) => {
+              if (tweetText.indexOf('#') === -1) {
+                return reverseText(tweetText)
+              } else {
+                return tweetText
+              }
+            }
+
+            /* This reverseTweet function uses if and else statements to
+            implement the reverseText function when the tweets don't contain
+            hastags, and if they do have hashtags, they get returned normally ie
+            without being reversed.
+            */
 
             // ---------------------- DELIVERABLE -----------------------------------
             // When somebody searches for a keyword, tweets with hashtags will appear as normal. Tweets with no hashtags will be inexplicably reversed.
@@ -67,7 +78,7 @@ const getData = () => {
             json.statuses.forEach((status) => {
                 div = document.createElement('div')
                 div.className = 'tweet'
-                textNode = document.createTextNode(status.text)
+                textNode = document.createTextNode(reverseTweet(status.text))
                 div.appendChild(textNode)
                 document.getElementById('results').appendChild(div)
             })
