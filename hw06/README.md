@@ -16,7 +16,19 @@ This homework will require some googling. As a software engineer, a lot of what 
 6. Verify that you are now on the new branch: `$ git branch` (check that your new branch has an asterisk next to it).
 
 ## PART II: Reading response
-Edit README.MD and write your reading response here!
+    This week, I read an article called "Ten Things A Serious JavaScript Developer Should Learn" on benmccormick.org.  In a nutshell, the ten skills are: the core language of
+  JavaScript, Async Code, at least one set of developer tools, knowledgeable of functions, basic HTML & CSS, HTTP based APIs, Node.js based tooling, JavaScript frameworks, basics
+  of performance, and a process of learning new things.
+    Because of class, I'm pretty familiar with all of these except for Async code and developer tools. Initially, I didn't recognize HTTP APIs, but I realized that's what Ricky
+  used in the homework to 'get' the Twitter feeds. All in all, I'd add a couple of more general skills to that list, such as critical thinking, a love of problem solving, ect.
+    From what I understand, Node.js is a fairly newer technology. It definitely solved the problem of compute scaling by enabling single threaded tasks. According to what
+  I understand, this allows requests to the server to become real-time, eliminates the problem of requests having to wait or time out, and is super fast. Aside from these pros,
+  the only con that I could find is it's CPU intensive due to it's single threaded abilities. Given all of this information, it's safe to say that I'll be using Node.js in
+  all of my future projects.
+    This article seems to be based on the author's opinion. It's a great list he's composed as a response to a reddit thread, but it'd probably be even better if he took a
+  little time out to interview some of his coding buddies. In my honest opinion, an article has more gravity when it contains something along the lines of "we've interviewed
+  ___ amount of programmers, here's a list based on the commonalities of what they said".
+    Moving forward, I'll probably look into Async code and developer tools so I can further my knowledge, as well as completely grasp what the author is talking about.
 
 ## Part III: JavaScript Homework
 
