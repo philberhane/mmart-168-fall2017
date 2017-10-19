@@ -6,6 +6,18 @@
 // parameter. In the body of the function, there should be code that
 // appends an "li" element, with the string inside, to the un-ordered
 // list ("ul" tag):
+const Container = document.querySelector('.container')
+const uL = Container.querySelector('ul')
+
+var listElement = document.createElement('li')
+
+const appendFunction = (somestring) => {
+
+  uL.append(listElement)
+  listElement.append(somestring)
+
+}
+
 
 
 
@@ -19,3 +31,17 @@
 // 2. If the number is divisible by 5, append "Buzz" to the unordered list
 // 3. If the number is divisible by 3 AND 5, append "FizzBuzz" to the unordered list.
 // 4. Bonus points: Include both the number *and* the word you've appended to the list
+
+for (let i = 0; i <= 100; i++) {
+
+  if (i % 3 ===0 ) {
+    console.log(appendFunction('Fizz' + i + ' '))
+  }
+  if (i % 5 ===0) {
+    console.log(appendFunction('Buzz' + i + ' '))
+  }
+  if (i % 3 ===0 && i % 5 ===0 ) {
+    console.log(appendFunction('FizzBuzz' + i + ' '))
+  }
+
+}

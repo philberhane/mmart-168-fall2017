@@ -1,3 +1,27 @@
+## THIS WEEK'S READING RESPONSE
+  This week I listened to "The 3 Steps in the Cycle of Technological Abstraction"
+by the Developer Tea podcast. This episode was a bit more on the business side,
+and aimed at developers or tech entrepreneurs who don't know what to build or
+what business to start (it was also more on the business side based on how many
+times he'd mention his sponsors lol jk). Step 1, Value, is basically figuring
+out what humans find valuable. Step 2, Optimization, is to make the most of your
+time and resources. Step 3, Abstraction, is figuring out how to provide this
+value by technological means.
+  We haven't really talked about this in class. This isn't necessarily a technology,
+but it's a pretty new and creative way of thinking before embarking on my own
+projects. The pros of technological abstraction would probably be a page long on
+it's own, so I'll limit it down to a few: autonomy, innovation, and making life
+a whole lot easier. The cons, to name a few, would be automation taking away
+human jobs, and, if you're Elon Musk, an iRobot-like world where AI has taken over.
+  The author could have considered more than 3 steps (because nothing online is
+ever 3 or 5 steps like they say it is), but it makes for a simple podcast episode
+that's easy to listen to in the morning. The fact that the number one step is 'value'
+is critical. In my opinion, value shifts the focus away from building things that
+are useless and focuses on things that can make a difference in someone's life.
+
+
+
+
 ## HOMEWORK 6: PRACTICE WITH FUNCTIONS, LOOPS, DOM MANIPULATION, AND CONDITIONALS
 > * Due date: Midnight on Wednesday, 10/18 (1 week)
 > * Part I: Self study (reading / watching videos)
