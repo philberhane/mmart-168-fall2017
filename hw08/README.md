@@ -1,3 +1,24 @@
+## READING RESPONSE
+
+This week I listened to "Your interview is tomorrow? Here's some last minute advice" by the Developer Tea Podcast.
+In a nutshell, the author suggests counter intuitive means to prepare for job interviews. Such include thinking about
+what you're grateful for to put you in a positive state, and using visualization to envision how you'd like to feel during the
+interview, as well as predict possible objections. The overall philosophy in this article is: cramming information
+last minute, increasing anxiety, losing sleep and being in a bad head space are terrible for interviews.
+
+This podcast episode suggests that you'll never have a moment of "arrival", and will be constantly learning. So instead of stressing over knowing
+everything, focus on things that will make you an effective communicator. This kind of reminds me of what happened to a charismatic buddy of mine.
+During his Twitter job interview, he had a very small grasp of the tasks they'd require for the job, yet somehow nailed the interview. After
+getting the job, he eventually learned everything needed to do his job.
+
+I strongly agree with this podcast episode. There are countless studies that support the effectiveness of positivity and the effectiveness of visualizations.
+This, of course, can be taken too far, to where an individual might focus so much on putting themselves in a positive state that they neglect the technicalities
+of a job interview, ie not knowing their stuff, failing to proofread their resume, ect. But the author counts these technicalities as pre requisites to the interview.
+
+
+
+
+
 ## HOMEWORK 8: MORE PRACTICE WITH LOOPS
 > * Due date: Midnight on Wednesday, 10/25 (1 week)
 > * Part I: Setting up your new homework branch
