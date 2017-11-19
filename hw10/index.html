@@ -6,14 +6,27 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <select id="station_list" onchange="getArrivalTimes(this)">
+
+
+      <div class="frame col-md-6 col-sm-12">
+
+          <p id="datetime">
+        Real time Departures
+        </p>
+
+        <p id="traincount">
+
+        </p>
+                <select id="station_list">
             <option value="">-- Select Your Station--</option>
         </select>
+        <input id="go" type="submit" value="Go" onclick="getArrivalTimes(this)">
 
-        <main id="results">
+        <div id="results">
             <!-- JavaScript should populate your code here -->
-        </main>
+        </div>
+      </div>
 
-        <script src="js/main_solutions.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>

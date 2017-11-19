@@ -17,11 +17,17 @@
 Open the BART API Documentation, and take a look at the kinds of information the API
 offers: https://api.bart.gov/docs/overview/examples.aspx. Consider the following:
 * What kind of information does this API make available?
+Pretty much everything about BART: from routes and scheduling to information about the station.
 * What apps and websites do you think access this information?
+I think transportation apps that deal with public transportation use this info.
+For example, maps on smart phones typically have a walking, driving, and public
+transportation option when configuring a route.
 * Exercise (not to turn in): Open the following URL in your web browser:<br>
   https://api.bart.gov/api/sched.aspx?cmd=depart&orig=24th&dest=rock&key=MW9S-E7SL-26DU-VV8V&json=y
     * What happens when you change the "orig" and "dest" parameters (see [this list](https://api.bart.gov/docs/overview/abbrev.aspx))?
+    It changes the real-time data that gets displayed.
     * What happens when you remove the "json=y" section of the URL?
+    The data is displayed in XML format.
 
 ## PART III: Coding
 Please complete the following activities

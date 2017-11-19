@@ -1,3 +1,61 @@
 body {
-    background: #F0F0F0;
+    background: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 25px;
+}
+
+#datetime {
+ background-color: #536C75;
+ color: white;
+ text-align: center;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border-radius: 5px;
+}
+
+#go {
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-weight: bold;
+
+}
+
+.trainline {
+  background-color: #D8D8D8;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+#station_list {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+span {
+  margin: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+p {
+  font-weight: bold;
+}
+
+.train-square {
+  width: 20px;
+  height: 20px;
+}
+
+.frame {
+  width: 400px;
+  margin: 20px auto 0px auto;
+  background: #FFF;
+  padding: 10px;
+  min-height: 200px;
+  background: #F0F0F0;
+  border-radius: 5px;
 }
