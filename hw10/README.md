@@ -5,6 +5,29 @@
 > * Part III: Coding
 > * Part IV: Submit
 
+
+## Reading Response
+This week I watched a YouTube video called "Improving Your Coding Problem Solving Skills"
+by a YouTuber named Simple Programmer. In this video, he advised some problem solving tips
+that apply not only to coding, but to life. Tip#1 is to refine and define the problem
+you're looking to solve. You can't solve a problem you don't understand.
+
+Tip#2 is to slow it down. He says that often, people rush into finding a solution or coding
+and end up frustrated. Tip#3 is to solve the simplest instance of the problem we're facing.
+He gave an example of reversing an array: to start off reversing just one item in an array,
+then a second, then a third. By starting simple and incrementing the difficulty, we're
+able to find patterns that we could apply to our current problem.
+
+This compliments what we've learned in this class. Whenever Sarah does an online lab for homework, I've noticed that she really breaks down what we're solving, and increments it so that by the time we're solving what the homework is asking for, everything seems easy.
+
+I definitely intend on slowing it down while working on this final project. While reading and writing data to Google Sheets, I found myself getting into this erratic, non-logical, trial and error mindset after several hours of working and running into problems. I found that while stretching, walking my dogs, or even driving with the problem in mind, solutions elegantly pop up in my head.
+
+I'm sure this isn't a new way of thinking. I never thought about the incrementing stuff prior to this class, but I guess that's kind of how we're taught math when we're young. We start off with one thing, which is a prerequisite for another thing, so on and so forth. I read about slowing it down from a couple of books in the past, to where one of the authors stated that brilliant minds throughout history solve their problems by relaxing or going to sleep with it in mind, from Einstein to Nikola Tesla.
+
+I'm sure there's probably a dozen of other tips that he could have suggested, and probably could have pulled up studies confirming these tips, as opposed to a 6 minute video based on his subjective experience, but I'm pretty satisfied with this video and plan on implementing
+the tips given.
+
+
 ## Part I: GitHub Setup
 1. Using the Terminal, navigate to your mmart-168-fall2017 git repository: `$ cd {your git repository path} #different for everyone`
 2. Check out the master branch: `$ git checkout master`
